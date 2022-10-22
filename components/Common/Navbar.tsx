@@ -155,7 +155,7 @@ const Navbar: FC = () => {
                         </div>
 
                         <div>
-                            <a href="/product">
+                            <a href="/RZR-FANG_LIGHT-KIT">
                                 <li className="list-none flex items-center cursor-pointer  text-xl py-3 font-semibold">
                                     RZR FANG LIGHT
                                 </li>
