@@ -4,10 +4,9 @@ import Link from 'next/link';
 
 const Hero: FC = () => (
     <section className=" w-screen flex flex-col items-center my-10">
-        <h1 className="text-5xl text-center">DOVOTECH. Powserful & Reliable</h1>
+        <h1 className="text-5xl text-center">DOVOTECH. Powerful & Reliable</h1>
         <div className="text-center text-gray-500 font-medium my-5 max-w-[800px] ">
             Dovotech focuses on creating some of the most innovative GOLF &amp; RZR accessories on{' '}
-            <br />
             the Market.
             <br />
             <br />
@@ -23,7 +22,7 @@ const Hero: FC = () => (
         </div>
 
         <div className="w-screen flex flex-col items-center place-items-center my-10 md:hidden ">
-            <Link href="/product">
+            <Link href="/T8-PRO-MAX_45W">
                 <div className="w-[400px] flex flex-col items-center mx-auto">
                     <Image
                         src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
@@ -41,10 +40,10 @@ const Hero: FC = () => (
                     </div>
                 </div>
             </Link>
-            <Link href="/product">
+            <Link href="/T8-PRO-15W">
                 <div className="w-[400px] flex flex-col items-center mx-auto">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/images/T8ProMax-40W/81YcAiRfTjS._AC_SL150027bb.jpg"
                         alt="slide1"
                         height={450}
                         width={420}
@@ -63,7 +62,7 @@ const Hero: FC = () => (
             </Link>
         </div>
         <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 my-10">
-            <Link href="/product">
+            <Link href="/T8-PRO-MAX_45W">
                 <div className="w-[500px]">
                     <Image
                         src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
@@ -81,10 +80,10 @@ const Hero: FC = () => (
                     </div>
                 </div>
             </Link>
-            <Link href="/product">
+            <Link href="/T8-PRO-15W">
                 <div className="w-[500px]">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/images/T8ProMax-40W/81YcAiRfTjS._AC_SL150027bb.jpg"
                         alt="slide1"
                         height={550}
                         width={500}

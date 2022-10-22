@@ -1,5 +1,5 @@
-import { FC, useState } from 'react';
-// Import Swiper React components
+import { NextPage } from 'next';
+import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Select from 'react-select';
 
@@ -11,7 +11,7 @@ import { Pagination } from 'swiper';
 
 import Image from 'next/image';
 
-const Product: FC = () => {
+const Product: NextPage = () => {
     const [counter, setCounter] = useState(1);
     return (
         <section className="bg-[#F8F8F8]">
@@ -29,7 +29,7 @@ const Product: FC = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/3_culori_albastru_247fa.jpg"
+                                    src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -40,7 +40,7 @@ const Product: FC = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/71buLfZ0uEL._AC_SL10005d3c.jpg"
+                                    src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -51,7 +51,7 @@ const Product: FC = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                                    src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -62,18 +62,7 @@ const Product: FC = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81gG1ksRfWL._AC_SL1500f1cf.jpg"
-                                    alt="product"
-                                    height={540}
-                                    width={540}
-                                />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="mb-8">
-                                <Image
-                                    className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81jMYlMwh9L._AC_SL1500_d167a4af-4dd2-46ec-98e9-4da05e927eddf1cf.jpg"
+                                    src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -83,11 +72,11 @@ const Product: FC = () => {
                     </Swiper>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-semibold">RZR Storage Bags SET of 3 BLUE</h1>
+                    <h1 className="text-3xl font-semibold">RZR Storage Bags SET of 2 RED</h1>
                     <p className=" font-semibold mt-4 ">
                         VAT Included. FREE Shipping for Prime Users.
                     </p>
-                    <h2 className="text-3xl font-semibold mt-5">$99.98</h2>
+                    <h2 className="text-3xl font-semibold mt-5">$68.98</h2>
                     <div className="my-5">
                         <Select
                             options={[

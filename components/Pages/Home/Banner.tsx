@@ -6,12 +6,12 @@ import Image from 'next/image';
 import 'swiper/swiper.min.css';
 
 const Banner: FC = () => (
-    <section>
+    <section className="-mt-20">
         <Swiper modules={[Autoplay]} loop autoplay speed={200} slidesPerView={1} spaceBetween={0}>
             <SwiperSlide>
-                <div className="relative h-[40rem] ">
+                <div className="relative h-[34rem] ">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/banner1.png"
                         alt="slide1"
                         layout="fill"
                         className="absolute object-cover w-full h-full"
@@ -19,9 +19,9 @@ const Banner: FC = () => (
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="relative h-[40rem] ">
+                <div className="relative h-[34rem] ">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/banner2.png"
                         alt="slide1"
                         layout="fill"
                         className="absolute object-cover w-full h-full"

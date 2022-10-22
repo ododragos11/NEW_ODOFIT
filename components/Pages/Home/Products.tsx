@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { FC } from 'react';
 
 const Products: FC = () => (
@@ -7,8 +8,7 @@ const Products: FC = () => (
             <h1 className="text-5xl text-center">The PERFECT Storage Solution</h1>
             <div className="text-center text-gray-500 font-medium my-5 max-w-[800px] ">
                 After 2 years of research and development, DOVOTECH is happy to announce the
-                ULTIMATE
-                <br /> RZR Storage solutions .
+                <br /> ULTIMATE RZR Storage solutions .
                 <br />
                 <br />
                 <p className="text-lg mt-5 text-black mx-5 md:mx-0">
@@ -24,119 +24,123 @@ const Products: FC = () => (
         <h1 className="text-5xl text-center my-5">SET OF 3</h1>
 
         <div className="w-screen md:w-[1000px] space-x-4 mx-auto md:grid flex flex-col items-center md:grid-cols-3 my-10">
-            <div className=" md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className=" text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className=" text-xl md:text-2xl text-center uppercase ">T8 Pro 15W</h1>
-                    <p className="text-gray-500 text-center font-medium">$75.98</p>
+            <Link href="/RZR-STORAGE-BAGS-3-BLUE">
+                <div className=" md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set3-Blue/3_culori_albastru_247fa.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={350}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 3 BLUE
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$99.98</p>
+                    </div>
                 </div>
-            </div>
-            <div className="md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className=" text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className=" text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
-                    </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+            </Link>
+            <Link href="/RZR-STORAGE-BAGS-3-GREY">
+                <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set3-GREY/3_culori_gri_247fa.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={350}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 3 GREY
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$99.98</p>
+                    </div>
                 </div>
-            </div>
-            <div className="md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className="text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
-                    </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+            </Link>
+            <Link href="/RZR-STORAGE-BAGS-3-RED">
+                <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={300}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 3 RED
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$99.98</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
         <h1 className="text-5xl text-center my-5">SET OF 2</h1>
 
         <div className="w-screen md:w-[1000px] space-x-4 mx-auto md:grid flex flex-col items-center md:grid-cols-3 my-10">
-            <div className="md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className="text-xl md:text-2xl text-center uppercase ">T8 Pro 15W</h1>
-                    <p className="text-gray-500 text-center font-medium">$75.98</p>
+            <Link href="/RZR-STORAGE-BAGS-2-BLUE">
+                <div className=" md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set2-BLUE/81AZauPQFRS._AC_SL150047fa.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={350}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 2 BLUE
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$99.98</p>
+                    </div>
                 </div>
-            </div>
-            <div className="md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className="text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
-                    </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+            </Link>
+            <Link href="/RZR-STORAGE-BAGS-2-GREY">
+                <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set2-Grey/81JQPJtSHKL._AC_SL1500e4db.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={350}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 2 GREY
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$99.98</p>
+                    </div>
                 </div>
-            </div>
-            <div className="md:w-[350px]">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={400}
-                    width={300}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className="text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
-                    </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+            </Link>
+            <Link href="/RZR-STORAGE-BAGS-2-RED">
+                <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
+                    <Image
+                        src="/images/StorageBags-Set3-RED/81xggeIQ94L._AC_SL150057b0.jpg"
+                        alt="slide1"
+                        height={400}
+                        width={300}
+                        className="object-contain cursor-pointer transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className=" text-center mt-3 tracking-widest uppercase">DOVOTECH</h2>
+                        <h1 className=" text-xl text-center uppercase font-semibold ">
+                            RZR Storage Bags SET <br /> of 2 RED
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$76.98</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
         <div>
             <h1 className="text-5xl text-center">Spot potential danger faster.</h1>
-            <div className="text-center text-gray-500 font-medium my-5 max-w-[800px] ">
-                <p className="text-lg mt-5 text-black mx-5 md:mx-0">
+            <div className="text-center text-gray-500 font-medium my-5 max-w-[800px] mx-auto ">
+                <p className="text-lg mt-5 text-black  mx-5 md:mx-0">
                     The <strong>DOVOTECH Accent Light Kit</strong> is a{' '}
                     <strong>Plug-and-Play, High Brightness headlight solution for your RZR.</strong>{' '}
                     This RZR light kit will make your machine look more aggressive while also
@@ -146,7 +150,7 @@ const Products: FC = () => (
 
             <div className="hidden md:block w-[500px] mx-auto">
                 <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                    src="/images/RZR-FANG-LIGHT-KIT/710YC-rThlL._AC_SL150071bb.jpg"
                     alt="slide1"
                     height={550}
                     width={500}
@@ -162,22 +166,42 @@ const Products: FC = () => (
                     <p className="text-gray-500 text-center font-medium">$129.98</p>
                 </div>
             </div>
-            <div className="md:hidden w-[400px] mx-auto">
-                <Image
-                    src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
-                    alt="slide1"
-                    height={550}
-                    width={400}
-                    className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
-                />
-                <div className="mb-4 space-y-2">
-                    <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
-                        DOVOTECH
-                    </h2>
-                    <h1 className="text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
-                    </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+            <Link href="/T8-PRO-MAX_45W">
+                <div className="md:hidden w-[400px] mx-auto">
+                    <Image
+                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        alt="slide1"
+                        height={550}
+                        width={400}
+                        className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
+                    />
+                    <div className="mb-4 space-y-2">
+                        <h2 className="text-lg md:text-xl text-center mt-3 tracking-widest uppercase">
+                            DOVOTECH
+                        </h2>
+                        <h1 className="text-xl md:text-2xl text-center uppercase ">
+                            T8 Pro Max Gold Speaker 45W
+                        </h1>
+                        <p className="text-gray-500 text-center font-medium">$129.98</p>
+                    </div>
+                </div>
+            </Link>
+            <div className="grid grid-cols-1 md:grid-cols-2 h-[500px] w-[80vw]  ">
+                <div className="relative h-full w-full">
+                    <Image
+                        className="hover:scale-105 transition-all cursor-pointer "
+                        src="/offroad.jpg"
+                        alt="offroad bike"
+                        layout="fill"
+                    />
+                </div>
+                <div className="relative h-full w-full">
+                    <Image
+                        className="hover:scale-105 transition-all cursor-pointer "
+                        src="/light.jpg"
+                        alt="offroad bike"
+                        layout="fill"
+                    />
                 </div>
             </div>
         </div>

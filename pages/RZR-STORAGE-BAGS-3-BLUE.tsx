@@ -1,5 +1,5 @@
-import { FC, useState } from 'react';
-// Import Swiper React components
+import { NextPage } from 'next';
+import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Select from 'react-select';
 
@@ -11,7 +11,7 @@ import { Pagination } from 'swiper';
 
 import Image from 'next/image';
 
-const Product: FC = () => {
+const Product: NextPage = () => {
     const [counter, setCounter] = useState(1);
     return (
         <section className="bg-[#F8F8F8]">
