@@ -14,14 +14,14 @@ const Navbar: FC = () => {
     const [storageBags, setStorageBags] = useState(false);
 
     return (
-        <div className=" sticky top-0 left-0 z-50 h-20 py-4">
-            <nav className=" flex justify-center items-center  bg-transparent text-white">
+        <div className=" sticky top-0 left-0 z-50 h-20 ">
+            <nav className=" flex justify-center items-center py-4 bg-gray-300 text-white">
                 <div className="flex justify-evenly items-center w-[90%]">
                     <button type="button" onClick={() => setOpen(!open)}>
                         {open ? (
-                            <IoClose className="text-3xl text-black   " />
+                            <IoClose className="text-3xl text-orange-400   " />
                         ) : (
-                            <GiHamburgerMenu className="text-3xl text-black  " />
+                            <GiHamburgerMenu className="text-3xl text-orange-400  " />
                         )}
                     </button>
                     <a href="/">
@@ -35,18 +35,18 @@ const Navbar: FC = () => {
                         />
                     </a>
                     <button type="button">
-                        <GiShoppingBag className="text-3xl text-black " />
+                        <GiShoppingBag className="text-3xl text-orange-400 " />
                     </button>
                 </div>
             </nav>
-            <div>
+            <div className="bg-gray-300">
                 {open && (
-                    <div className="flex justify-evenly w-1/2 mx-auto   bg-black bg-opacity-20 text-black">
+                    <div className="flex flex-col  items-center justify-center ">
                         <div>
                             <button
                                 type="button"
                                 onClick={() => setGolf(!golf)}
-                                className="list-none flex items-center  text-xl py-3 font-semibold "
+                                className="list-none flex items-center  text-xl hover:text-orange-400 transition-all py-3 font-semibold "
                             >
                                 GOLF SPEAKERS
                                 {golf ? (
@@ -58,12 +58,12 @@ const Navbar: FC = () => {
                             {golf && (
                                 <ul className="pb-3 flex flex-col items-center font-medium">
                                     <a href="/T8-PRO-15W">
-                                        <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                        <li className=" hover:text-orange-400 text-lg tracking-wider   cursor-pointer transition-all">
                                             T8 Pro Max
                                         </li>
                                     </a>
                                     <a href="/T8-PRO-MAX_45W">
-                                        <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                        <li className=" hover:text-orange-400 text-lg tracking-wider   cursor-pointer transition-all">
                                             T8 Pro
                                         </li>
                                     </a>
@@ -75,7 +75,7 @@ const Navbar: FC = () => {
                             <button
                                 type="button"
                                 onClick={() => setStorageBags(!storageBags)}
-                                className="list-none flex m-0 items-center  text-xl py-3 font-semibold"
+                                className="list-none flex m-0 items-center hover:text-orange-400 transition-all text-xl py-3 font-semibold"
                             >
                                 RZR STORAGE BAGS
                                 {storageBags ? (
@@ -90,7 +90,7 @@ const Navbar: FC = () => {
                                         <button
                                             type="button"
                                             onClick={() => setSet2(!set2)}
-                                            className="list-none flex items-center  text-xl py-3 font-semibold"
+                                            className="list-none hover:text-orange-400  transition-all flex items-center  text-xl py-3 font-semibold"
                                         >
                                             Set Of 2
                                             {set2 ? (
@@ -102,17 +102,17 @@ const Navbar: FC = () => {
                                         {set2 && (
                                             <ul className="pb-3 flex flex-col items-center font-medium space-y-2">
                                                 <a href="/RZR-STORAGE-BAGS-2-BLUE">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider flex text-center cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 2 – BLUE
                                                     </li>
                                                 </a>
                                                 <a href="/RZR-STORAGE-BAGS-2-GREY">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider flex text-center cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 2 – GREY
                                                     </li>
                                                 </a>
                                                 <a href="/RZR-STORAGE-BAGS-2-RED">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider flex text-center cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 2 – RED
                                                     </li>
                                                 </a>
@@ -133,17 +133,17 @@ const Navbar: FC = () => {
                                         {set3 && (
                                             <ul className="pb-3 flex flex-col items-center font-medium space-y-2">
                                                 <a href="/RZR-STORAGE-BAGS-2-BLUE">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – BLUE
                                                     </li>
                                                 </a>
                                                 <a href="/RZR-STORAGE-BAGS-2-GREY">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – GREY
                                                     </li>
                                                 </a>
                                                 <a href="/RZR-STORAGE-BAGS-2-RED">
-                                                    <li className="hover:underline underline-offset-4 cursor-pointer transition-all">
+                                                    <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – RED
                                                     </li>
                                                 </a>
@@ -156,7 +156,7 @@ const Navbar: FC = () => {
 
                         <div>
                             <a href="/RZR-FANG_LIGHT-KIT">
-                                <li className="list-none flex items-center cursor-pointer  text-xl py-3 font-semibold">
+                                <li className="list-none flex mr-6 items-center cursor-pointer  text-xl py-3 font-semibold">
                                     RZR FANG LIGHT
                                 </li>
                             </a>

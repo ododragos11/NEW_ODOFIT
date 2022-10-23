@@ -25,7 +25,7 @@ const Hero: FC = () => (
             <Link href="/T8-PRO-MAX_45W">
                 <div className="w-[400px] flex flex-col items-center mx-auto">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/1.jpg"
                         alt="slide1"
                         height={450}
                         width={420}
@@ -43,7 +43,7 @@ const Hero: FC = () => (
             <Link href="/T8-PRO-15W">
                 <div className="w-[400px] flex flex-col items-center mx-auto">
                     <Image
-                        src="/images/T8ProMax-40W/81YcAiRfTjS._AC_SL150027bb.jpg"
+                        src="/2.jpg"
                         alt="slide1"
                         height={450}
                         width={420}
@@ -65,7 +65,7 @@ const Hero: FC = () => (
             <Link href="/T8-PRO-MAX_45W">
                 <div className="w-[500px]">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/1.jpg"
                         alt="slide1"
                         height={550}
                         width={500}
@@ -83,7 +83,7 @@ const Hero: FC = () => (
             <Link href="/T8-PRO-15W">
                 <div className="w-[500px]">
                     <Image
-                        src="/images/T8ProMax-40W/81YcAiRfTjS._AC_SL150027bb.jpg"
+                        src="/2.jpg"
                         alt="slide1"
                         height={550}
                         width={500}

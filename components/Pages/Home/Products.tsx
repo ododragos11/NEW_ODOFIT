@@ -66,7 +66,7 @@ const Products: FC = () => (
                         src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
                         alt="slide1"
                         height={400}
-                        width={300}
+                        width={350}
                         className="object-contain cursor-pointer transition-all duration-500"
                     />
                     <div className="mb-4 space-y-2">
@@ -85,7 +85,7 @@ const Products: FC = () => (
             <Link href="/RZR-STORAGE-BAGS-2-BLUE">
                 <div className=" md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
                     <Image
-                        src="/images/StorageBags-Set2-BLUE/81AZauPQFRS._AC_SL150047fa.jpg"
+                        src="/blue.jpg"
                         alt="slide1"
                         height={400}
                         width={350}
@@ -103,7 +103,7 @@ const Products: FC = () => (
             <Link href="/RZR-STORAGE-BAGS-2-GREY">
                 <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
                     <Image
-                        src="/images/StorageBags-Set2-Grey/81JQPJtSHKL._AC_SL1500e4db.jpg"
+                        src="/grey.jpg"
                         alt="slide1"
                         height={400}
                         width={350}
@@ -121,10 +121,10 @@ const Products: FC = () => (
             <Link href="/RZR-STORAGE-BAGS-2-RED">
                 <div className="md:w-[350px] cursor-pointer transition-all hover:scale-105 duration-500 ">
                     <Image
-                        src="/images/StorageBags-Set3-RED/81xggeIQ94L._AC_SL150057b0.jpg"
+                        src="/red.jpg"
                         alt="slide1"
                         height={400}
-                        width={300}
+                        width={350}
                         className="object-contain cursor-pointer transition-all duration-500"
                     />
                     <div className="mb-4 space-y-2">
@@ -186,7 +186,7 @@ const Products: FC = () => (
                     </div>
                 </div>
             </Link>
-            <div className="grid grid-cols-1 md:grid-cols-2 h-[500px] w-[80vw]  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 h-[500px] w-[80vw] max-w-[1280px]  ">
                 <div className="relative h-full w-full">
                     <Image
                         className="hover:scale-105 transition-all cursor-pointer "
