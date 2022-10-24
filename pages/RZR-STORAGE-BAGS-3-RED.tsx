@@ -7,7 +7,7 @@ import Select from 'react-select';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import Image from 'next/image';
 
@@ -22,7 +22,8 @@ const Product: NextPage = () => {
                             dynamicBullets: true,
                         }}
                         loop
-                        modules={[Pagination]}
+                        autoplay
+                        modules={[Pagination, Autoplay]}
                         className="mySwiper"
                     >
                         <SwiperSlide>

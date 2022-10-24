@@ -7,7 +7,7 @@ import Select from 'react-select';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import Image from 'next/image';
 
@@ -22,14 +22,15 @@ const Product: NextPage = () => {
                             dynamicBullets: true,
                         }}
                         loop
-                        modules={[Pagination]}
+                        modules={[Pagination, Autoplay]}
+                        autoplay
                         className="mySwiper"
                     >
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/71DISB1PH_L._AC_SL150071bb.jpg"
+                                    src="/light2.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -47,17 +48,7 @@ const Product: NextPage = () => {
                                 />
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="mb-8">
-                                <Image
-                                    className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/71MFOgnzZlL._AC_SL1500__1e4db.jpg"
-                                    alt="product"
-                                    height={540}
-                                    width={540}
-                                />
-                            </div>
-                        </SwiperSlide>
+
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
@@ -87,7 +78,7 @@ const Product: NextPage = () => {
                     <p className=" font-semibold mt-4 ">
                         VAT Included. FREE Shipping for Prime Users.
                     </p>
-                    <h2 className="text-3xl font-semibold mt-5">$99.98</h2>
+                    <h2 className="text-3xl font-semibold mt-5">$79.98</h2>
                     <div className="my-5">
                         <Select
                             options={[
@@ -143,35 +134,37 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/white-light.png"
                         alt="product"
                         height={520}
                         width={500}
                         layout="responsive"
                     />
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">Great Utility.</h1>
+                        <h1 className="text-3xl font-semibold mb-5">
+                            Spot potential danger faster.
+                        </h1>
                         <p className="tracking-wider text-lg">
-                            These bags provide great utility due to the fact that they have one
-                            large pocket, an exterior mesh pocket and water bottle holder. Besides
-                            their great storage capacity, these bags are also comfortable due to
-                            their knee padding !
+                            These EASY to install, HIGH brightness fang lights will provide a
+                            complete makeover to your car. Spot obstacles faster which putting more
+                            light on the road !
                         </p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">
-                            Scratch Resistant Carbon Fiber.
-                        </h1>
+                        <h1 className="text-3xl font-semibold mb-5">Tune your machine.</h1>
                         <p className="tracking-wider text-lg">
-                            The DOVOTECH Storage Bags are made out of an UNIQUE on the market carbon
-                            fiber material. Besides its appealing design, it offers great protection
-                            against water, dust and scratches.
+                            The DOVOTECH Fang Light Kit come with a turn light signal on both sides
+                            for your convenience. The fang light will kit fit{' '}
+                            <strong>
+                                2019,2020,2021 RZR XP Turbo, RZR XP 4 Turbo, RZR XP4 1000, RZR XP
+                                1000
+                            </strong>
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/RZR-FANG-LIGHT-KIT/710YC-rThlL._AC_SL150071bb.jpg"
                         alt="product"
                         height={520}
                         width={500}
@@ -183,7 +176,7 @@ const Product: NextPage = () => {
                 <iframe
                     title="product-video"
                     allowFullScreen
-                    src="https://www.youtube.com/embed/05EXpfiUk5Y"
+                    src="https://www.youtube.com/embed/BlhOFOeB1ig"
                     className="w-full h-[390px] md:h-[600px] md:px-36 bg-black object-cover shadow-lg "
                 />
             </div>

@@ -7,7 +7,7 @@ import Select from 'react-select';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import Image from 'next/image';
 
@@ -22,14 +22,18 @@ const Product: NextPage = () => {
                             dynamicBullets: true,
                         }}
                         loop
-                        modules={[Pagination]}
+                        modules={[Pagination, Autoplay]}
+                        autoplay={{
+                            delay: 1000,
+                            disableOnInteraction: false,
+                        }}
                         className="mySwiper"
                     >
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/71DISB1PH_L._AC_SL150071bb.jpg"
+                                    src="/images/T8PRO-15W/198324650_2868898236756990_8325215817140438754_n_bb067ba7-0626-485a-8a0d-143d4fc5f3423639.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -40,7 +44,7 @@ const Product: NextPage = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/71hxLLyOPhS._AC_SL15004c82.jpg"
+                                    src="/images/T8PRO-15W/818EFfzWVcS._AC_SL150042c0.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -51,7 +55,7 @@ const Product: NextPage = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/71MFOgnzZlL._AC_SL1500__1e4db.jpg"
+                                    src="/images/T8PRO-15W/91QLa0t1NNS._AC_SL150047fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -62,7 +66,7 @@ const Product: NextPage = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/711yAiv4--S._AC_SL150071bb.jpg"
+                                    src="/images/T8PRO-15W/81q5rr5PIYS._AC_SL150018b0.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -73,7 +77,7 @@ const Product: NextPage = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/RZR-FANG-LIGHT-KIT/716Ragrb3rL._AC_SL150071bb.jpg"
+                                    src="/images/T8PRO-15W/81NcUP9Bo-S._AC_SL150047fa.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -144,35 +148,35 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/T8PRO-15W/81NcUP9Bo-S._AC_SL150047fa.jpg"
+                        src="/images/sm_speaker.jpg"
                         alt="product"
                         height={520}
                         width={500}
                         layout="responsive"
                     />
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">Great Utility.</h1>
+                        <h1 className="text-3xl font-semibold mb-5">Small, but powerful.</h1>
                         <p className="tracking-wider text-lg">
-                            These bags provide great utility due to the fact that they have one
-                            large pocket, an exterior mesh pocket and water bottle holder. Besides
-                            their great storage capacity, these bags are also comfortable due to
-                            their knee padding !
+                            Dont get fooled by its small size, this 40W speaker will bring a bang
+                            for the buck. With only 6 active buttons, you will be listening to your
+                            favorite music in no time ! This speaker will bring a smile on your face
+                            on the golf course !
                         </p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex flex-col justify-center bg-white pl-8 ">
                         <h1 className="text-3xl font-semibold mb-5">
-                            Scratch Resistant Carbon Fiber.
+                            Mount it on golf cart or caddy.
                         </h1>
                         <p className="tracking-wider text-lg">
-                            The DOVOTECH Storage Bags are made out of an UNIQUE on the market carbon
-                            fiber material. Besides its appealing design, it offers great protection
-                            against water, dust and scratches.
+                            The UNIQUE Stainless Steel Bar Mount allows the speaker to be mounted on
+                            both golf caddies or golf carts. With a battery like of up to 20 hours,
+                            this speaker will stay with you all day !
                         </p>
                     </div>
                     <Image
-                        src="/images/T8PRO-15W/91QLa0t1NNS._AC_SL150047fa.jpg"
+                        src="/images/small_speaker.jpg"
                         alt="product"
                         height={520}
                         width={500}

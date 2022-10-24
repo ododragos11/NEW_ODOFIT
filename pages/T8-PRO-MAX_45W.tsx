@@ -7,7 +7,7 @@ import Select from 'react-select';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import Image from 'next/image';
 
@@ -22,7 +22,8 @@ const Product: NextPage = () => {
                             dynamicBullets: true,
                         }}
                         loop
-                        modules={[Pagination]}
+                        modules={[Pagination, Autoplay]}
+                        autoplay
                         className="mySwiper"
                     >
                         <SwiperSlide>
@@ -144,35 +145,35 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/T8ProMax-40W/81TyNet0GWL._AC_SL1500e4db.jpg"
+                        src="/images/T8ProMax-40W/poza_14.jpg"
                         alt="product"
                         height={520}
                         width={500}
                         layout="responsive"
                     />
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">Great Utility.</h1>
+                        <h1 className="text-3xl font-semibold mb-5">Small, but powerful.</h1>
                         <p className="tracking-wider text-lg">
-                            These bags provide great utility due to the fact that they have one
-                            large pocket, an exterior mesh pocket and water bottle holder. Besides
-                            their great storage capacity, these bags are also comfortable due to
-                            their knee padding !
+                            Dont get fooled by its small size, this 40W speaker will bring a bang
+                            for the buck. With only 6 active buttons, you will be listening to your
+                            favorite music in no time ! This speaker will bring a smile on your face
+                            on the golf course !
                         </p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex flex-col justify-center bg-white pl-8 ">
                         <h1 className="text-3xl font-semibold mb-5">
-                            Scratch Resistant Carbon Fiber.
+                            Mount it on golf cart or caddy.
                         </h1>
                         <p className="tracking-wider text-lg">
-                            The DOVOTECH Storage Bags are made out of an UNIQUE on the market carbon
-                            fiber material. Besides its appealing design, it offers great protection
-                            against water, dust and scratches.
+                            The UNIQUE Stainless Steel Bar Mount allows the speaker to be mounted on
+                            both golf caddies or golf carts. With a battery like of up to 20 hours,
+                            this speaker will stay with you all day !
                         </p>
                     </div>
                     <Image
-                        src="/images/T8ProMax-40W/91cgIsD55RL._AC_SL150047fa.jpg"
+                        src="/images/small_speaker.jpg"
                         alt="product"
                         height={520}
                         width={500}
