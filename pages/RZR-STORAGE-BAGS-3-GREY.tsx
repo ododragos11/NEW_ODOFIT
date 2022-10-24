@@ -29,7 +29,7 @@ const Product: NextPage = () => {
                             <div className="mb-8">
                                 <Image
                                     className="object-cover"
-                                    src="/images/StorageBags-Set3-GREY/3_culori_gri_247fa.jpg"
+                                    src="/grey.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -121,8 +121,8 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags GRAY, 1x Center
-                            Bag, 1 x Instruction Manual
+                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags GRAY, 1 x
+                            Instruction Manual
                         </p>
                         <p>✔️ Mudproof and waterproof.</p>
                         <p>✔️ Fresh CARBON FIBER look.</p>

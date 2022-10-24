@@ -122,8 +122,8 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags GREY, 1x Center
-                            Bag, 1 x Instruction Manual
+                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags GREY, 1 x
+                            Instruction Manual
                         </p>
                         <p>✔️ Mudproof and waterproof.</p>
                         <p>✔️ Fresh CARBON FIBER look.</p>
