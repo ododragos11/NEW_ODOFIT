@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Select from 'react-select';
 
-// Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
@@ -121,7 +120,7 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags RED, 1x Center
+                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags GRAY, 1x Center
                             Bag, 1 x Instruction Manual
                         </p>
                         <p>✔️ Mudproof and waterproof.</p>
@@ -133,7 +132,7 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set3-GREY/81h_Yomb8cL._AC_SX615_SY4626de6.jpg"
                         alt="product"
                         height={520}
                         width={500}
@@ -161,7 +160,7 @@ const Product: NextPage = () => {
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set2-Grey/81P-vWUCmRL._AC_SL150047fa.jpg"
                         alt="product"
                         height={520}
                         width={500}

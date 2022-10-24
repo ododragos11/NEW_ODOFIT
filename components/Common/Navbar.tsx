@@ -15,7 +15,11 @@ const Navbar: FC = () => {
 
     return (
         <div className=" sticky top-0 left-0 z-50 h-20 ">
-            <nav className=" flex justify-center items-center py-4 bg-gray-300 text-white">
+            <nav
+                className={` flex justify-center items-center py-4  text-white ${
+                    open ? 'bg-gray-300' : 'bg-transparent'
+                } `}
+            >
                 <div className="flex justify-evenly items-center w-[90%]">
                     <button type="button" onClick={() => setOpen(!open)}>
                         {open ? (
@@ -59,12 +63,12 @@ const Navbar: FC = () => {
                                 <ul className="pb-3 flex flex-col items-center font-medium">
                                     <a href="/T8-PRO-15W">
                                         <li className=" hover:text-orange-400 text-lg tracking-wider   cursor-pointer transition-all">
-                                            T8 Pro Max
+                                            T8 Pro
                                         </li>
                                     </a>
                                     <a href="/T8-PRO-MAX_45W">
                                         <li className=" hover:text-orange-400 text-lg tracking-wider   cursor-pointer transition-all">
-                                            T8 Pro
+                                            T8 Pro Max
                                         </li>
                                     </a>
                                 </ul>
@@ -132,17 +136,17 @@ const Navbar: FC = () => {
                                         </button>
                                         {set3 && (
                                             <ul className="pb-3 flex flex-col items-center font-medium space-y-2">
-                                                <a href="/RZR-STORAGE-BAGS-2-BLUE">
+                                                <a href="/RZR-STORAGE-BAGS-3-BLUE">
                                                     <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – BLUE
                                                     </li>
                                                 </a>
-                                                <a href="/RZR-STORAGE-BAGS-2-GREY">
+                                                <a href="/RZR-STORAGE-BAGS-3-GREY">
                                                     <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – GREY
                                                     </li>
                                                 </a>
-                                                <a href="/RZR-STORAGE-BAGS-2-RED">
+                                                <a href="/RZR-STORAGE-BAGS-3-RED">
                                                     <li className=" hover:text-orange-400 text-lg tracking-wider text-center   cursor-pointer transition-all">
                                                         DOVOTECH Storage Bags Set of 3 – RED
                                                     </li>

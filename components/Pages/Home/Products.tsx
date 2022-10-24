@@ -150,7 +150,7 @@ const Products: FC = () => (
 
             <div className="hidden md:block w-[500px] mx-auto">
                 <Image
-                    src="/images/RZR-FANG-LIGHT-KIT/710YC-rThlL._AC_SL150071bb.jpg"
+                    src="/light2.jpg"
                     alt="slide1"
                     height={550}
                     width={500}
@@ -161,15 +161,15 @@ const Products: FC = () => (
                         DOVOTECH
                     </h2>
                     <h1 className="text-xl md:text-2xl text-center uppercase ">
-                        T8 Pro Max Gold Speaker 40W
+                        RZR Fang Light Kit
                     </h1>
-                    <p className="text-gray-500 text-center font-medium">$129.98</p>
+                    <p className="text-gray-500 text-center font-medium">$76.98</p>
                 </div>
             </div>
             <Link href="/T8-PRO-MAX_45W">
                 <div className="md:hidden w-[400px] mx-auto">
                     <Image
-                        src="/images/T8ProMax-40W/198389893_283456556795450_5236851869529339816_n_2827f.jpg"
+                        src="/light2.jpg"
                         alt="slide1"
                         height={550}
                         width={400}
@@ -180,9 +180,9 @@ const Products: FC = () => (
                             DOVOTECH
                         </h2>
                         <h1 className="text-xl md:text-2xl text-center uppercase ">
-                            T8 Pro Max Gold Speaker 45W
+                            RZR Fang Light Kit
                         </h1>
-                        <p className="text-gray-500 text-center font-medium">$129.98</p>
+                        <p className="text-gray-500 text-center font-medium">$76.98</p>
                     </div>
                 </div>
             </Link>

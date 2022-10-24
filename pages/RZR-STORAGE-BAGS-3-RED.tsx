@@ -133,7 +133,7 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set3-RED/81251iq5hVL._AC_SL150057b0.jpg"
                         alt="product"
                         height={520}
                         width={500}
@@ -161,7 +161,7 @@ const Product: NextPage = () => {
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set2-RED/815N5wPfD8S._AC_SL1500e4db.jpg"
                         alt="product"
                         height={520}
                         width={500}

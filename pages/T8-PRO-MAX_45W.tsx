@@ -132,19 +132,19 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags RED, 1x Center
-                            Bag, 1 x Instruction Manual
+                            ✅ Clear Sound and Extra Bass at its Finest–Forget about poor sound and
+                            weak bass, this portable golf cart speaker will put a smile on your face
+                            with it’s 360° multi-directional audio swivel and SUPER BASS. <br /> ✅
+                            Play more rounds with extended battery life-Thanks to its large battery
+                            capacity, this golf cart accessories
                         </p>
-                        <p>✔️ Mudproof and waterproof.</p>
-                        <p>✔️ Fresh CARBON FIBER look.</p>
-                        <p>✔️ US Customer Support</p>
                     </div>
                 </div>
             </div>
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/T8ProMax-40W/81TyNet0GWL._AC_SL1500e4db.jpg"
                         alt="product"
                         height={520}
                         width={500}
@@ -172,7 +172,7 @@ const Product: NextPage = () => {
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/T8ProMax-40W/91cgIsD55RL._AC_SL150047fa.jpg"
                         alt="product"
                         height={520}
                         width={500}

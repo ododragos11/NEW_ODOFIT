@@ -131,13 +131,12 @@ const Product: NextPage = () => {
                         </button>
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
-                        <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags RED, 1x Center
-                            Bag, 1 x Instruction Manual
-                        </p>
-                        <p>✔️ Mudproof and waterproof.</p>
-                        <p>✔️ Fresh CARBON FIBER look.</p>
-                        <p>✔️ US Customer Support</p>
+                        ✔️WHILE OTHER 2020 RZR XP 1000 lights, RZR accessories and RZR fang lights
+                        have weak front lights assembly,
+                        <br /> These RZR lights can be installed on the fang kit easily and replace
+                        your dull RZR 1000 lights. <br /> The DOVOTECH accent light kit have high
+                        quality material: ABS back shell and a polycarbonate RZR headlights which
+                        which makes these accessories beautiful and reliable
                     </div>
                 </div>
             </div>

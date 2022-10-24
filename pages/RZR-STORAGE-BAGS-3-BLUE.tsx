@@ -132,7 +132,7 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags RED, 1x Center
+                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags BLUE, 1x Center
                             Bag, 1 x Instruction Manual
                         </p>
                         <p>✔️ Mudproof and waterproof.</p>
@@ -144,7 +144,7 @@ const Product: NextPage = () => {
             <div className="md:w-[70rem] mx-auto py-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set3-Blue/81NI2xR0vRL._AC_SL1500f1cf.jpg"
                         alt="product"
                         height={520}
                         width={500}
@@ -172,7 +172,7 @@ const Product: NextPage = () => {
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                        src="/images/StorageBags-Set2-BLUE/81AZauPQFRS._AC_SL150047fa.jpg"
                         alt="product"
                         height={520}
                         width={500}
