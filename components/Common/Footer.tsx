@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 const Footer: FC = () => (
-    <footer className="h-fit py-4 bg-[#EAE7E0] w-screen ">
+    <footer className="h-fit py-4 bg-[#EAE7E0] ">
         <div className=" w-fit mx-auto pt-2 flex flex-col items-center ">
             <h1 className="font-bold text-lg">SIGN UP FOR UPDATES</h1>
             <p className="text-gray-600 py-1 text-center">
@@ -9,13 +9,11 @@ const Footer: FC = () => (
             </p>
             <input
                 type="text"
-                className="my-2 w-[90vw] md:w-[40rem] bg-transparent border-b-2 border-black placeholder:text-black placeholder:text-sm outline-none "
+                className="my-2 w-[90vw] md:w-[40rem] bg-transparent border-x-0 border-t-0  border-b-2  border-black placeholder:text-black placeholder:text-sm outline-none "
                 placeholder="Enter Email Address"
             />
             <br />
-            <p className="text-xs text-center py-1 ">
-                Copyright © 2022, DOVOTECH. Powered by Vercel
-            </p>
+            <p className="text-xs text-center py-1 ">Copyright © 2022, ODOFIT. Powered by Vercel</p>
         </div>
     </footer>
 );

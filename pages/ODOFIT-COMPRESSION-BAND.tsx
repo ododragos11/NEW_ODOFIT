@@ -23,14 +23,17 @@ const Product: NextPage = () => {
                         }}
                         loop
                         modules={[Pagination, Autoplay]}
-                        autoplay
+                        autoplay={{
+                            delay: 1000,
+                            disableOnInteraction: false,
+                        }}
                         className="mySwiper"
                     >
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
-                                    className="object-cover"
-                                    src="/blue.jpg"
+                                    className="object-contain"
+                                    src="/groinBrace/71kmpfqFxnL._AC_SL1500__27384.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -40,8 +43,8 @@ const Product: NextPage = () => {
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
-                                    className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/71buLfZ0uEL._AC_SL10005d3c.jpg"
+                                    className="object-contain"
+                                    src="/groinBrace/Odofit_07_19576.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -51,8 +54,8 @@ const Product: NextPage = () => {
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
-                                    className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81cvdbTSgyL._AC_SL1500f1cf.jpg"
+                                    className="object-contain"
+                                    src="/groinBrace/6f17730a-e856-4cca-935c-baf4337eadc9.__CR0_0_970_600_PT0_SX970_V1fe12.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -62,8 +65,8 @@ const Product: NextPage = () => {
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
-                                    className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81gG1ksRfWL._AC_SL1500f1cf.jpg"
+                                    className="object-contain"
+                                    src="/groinBrace/poza1_mod03fe.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -73,8 +76,8 @@ const Product: NextPage = () => {
                         <SwiperSlide>
                             <div className="mb-8">
                                 <Image
-                                    className="object-cover"
-                                    src="/images/StorageBags-Set3-Blue/81jMYlMwh9L._AC_SL1500_d167a4af-4dd2-46ec-98e9-4da05e927eddf1cf.jpg"
+                                    className="object-contain"
+                                    src="/groinBrace/vsbanner03fe.jpg"
                                     alt="product"
                                     height={540}
                                     width={540}
@@ -84,20 +87,24 @@ const Product: NextPage = () => {
                     </Swiper>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-semibold">RZR Storage Bags SET of 2 BLUE</h1>
+                    <h1 className="text-3xl font-semibold">ODOFIT Compression Brace</h1>
                     <p className=" font-semibold mt-4 ">
                         VAT Included. FREE Shipping for Prime Users.
                     </p>
-                    <h2 className="text-3xl font-semibold mt-5">$68.98</h2>
+                    <h2 className="text-3xl font-semibold mt-5">$27.97</h2>
                     <div className="my-5">
                         <Select
                             options={[
                                 {
-                                    value: 'Blue - $99.98',
-                                    label: 'Blue - $99.98',
+                                    value: 'Left - $27.97',
+                                    label: 'Left - $27.97',
+                                },
+                                {
+                                    value: 'Right - $27.97',
+                                    label: 'Right - $27.97',
                                 },
                             ]}
-                            placeholder="Blue - $99.98"
+                            placeholder="Left - $27.97"
                             className="w-96"
                         />
                     </div>
@@ -133,59 +140,81 @@ const Product: NextPage = () => {
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>
-                            ✔️ Package contains 2 x DOVOTECH RZR Storage Door Bags BLUE, 1 x
-                            Instruction Manual
+                            ✔️ Package contains 1 x ODOFIT Compression Brace, 1 x Instruction
+                            Manual, 1 x Travel Pouch <br />
+                            <br /> ✔️ Premium Quality Breathable Neoprene <br />
+                            <br />
+                            ✔️ UNIQUE 3 Strap-Design <br /> <br /> ✔️ US Customer Support
                         </p>
-                        <p>✔️ Mudproof and waterproof.</p>
-                        <p>✔️ Fresh CARBON FIBER look.</p>
-                        <p>✔️ US Customer Support</p>
                     </div>
                 </div>
             </div>
             <div className="md:w-[70rem] mx-auto py-10">
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="grid grid-cols-1 bg-white md:grid-cols-2">
                     <Image
-                        src="/images/StorageBags-Set3-Blue/81NI2xR0vRL._AC_SL1500f1cf.jpg"
+                        src="/groinBrace/vsbanner03fe.jpg"
                         alt="product"
                         height={520}
                         width={500}
                         layout="responsive"
+                        className="object-contain"
                     />
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">Great Utility.</h1>
-                        <p className="tracking-wider text-lg">
-                            These bags provide great utility due to the fact that they have one
-                            large pocket, an exterior mesh pocket and water bottle holder. Besides
-                            their great storage capacity, these bags are also comfortable due to
-                            their knee padding !
+                        <h1 className="text-3xl font-semibold mb-5">
+                            Remember your last painless day?
+                        </h1>
+                        <p className="pr-4 text-lg">
+                            Injury support for people of all ages and genders. This brace will
+                            reduce you nerve or muscle pain using an innovative compression system
+                            which boosts blood flow.
                         </p>
                     </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-white">
                     <div className="flex flex-col justify-center bg-white pl-8 ">
-                        <h1 className="text-3xl font-semibold mb-5">
-                            Scratch Resistant Carbon Fiber.
-                        </h1>
-                        <p className="tracking-wider text-lg">
-                            The DOVOTECH Storage Bags are made out of an UNIQUE on the market carbon
-                            fiber material. Besides its appealing design, it offers great protection
-                            against water, dust and scratches.
+                        <h1 className="text-3xl font-semibold mb-5">Recovery reinvented.</h1>
+                        <p className="pr-4 text-lg">
+                            This <strong> UNIQUE </strong> hamstring compression brace has designed
+                            over the span of several years to provide our clients with a solution to
+                            <strong> sciatica pain, hamstring pain and much more !</strong>
                         </p>
                     </div>
                     <Image
-                        src="/images/StorageBags-Set2-BLUE/81AZauPQFRS._AC_SL150047fa.jpg"
+                        src="/groinBrace/poza1_mod03fe.jpg"
                         alt="product"
                         height={520}
                         width={500}
                         layout="responsive"
+                        className="object-contain"
                     />
+                </div>
+                <div className="grid grid-cols-1 bg-white md:grid-cols-2">
+                    <Image
+                        src="/groinBrace/vsbanner03fe.jpg"
+                        alt="product"
+                        height={520}
+                        width={500}
+                        layout="responsive"
+                        className="object-contain"
+                    />
+                    <div className="flex flex-col justify-center bg-white pl-8 ">
+                        <h1 className="text-3xl font-semibold mb-5">
+                            First 3-Strap Brace on the market.
+                        </h1>
+                        <p className="pr-4 text-lg">
+                            Most compression braces have 2 straps, the innovation ODOFIT come with
+                            is the addition of a 3rd strap. Our research showed that adding an extra
+                            strap will provide optimal coverage of the affected area. This brace
+                            also has an anti-slip design so you can enjoy wearing it anywhere !
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="md:w-[80rem] mx-auto pb-10">
                 <iframe
                     title="product-video"
                     allowFullScreen
-                    src="https://www.youtube.com/embed/05EXpfiUk5Y"
+                    src="https://www.youtube.com/embed/5qzyKR20Qa4"
                     className="w-full h-[390px] md:h-[600px] md:px-36 bg-black object-cover shadow-lg "
                 />
             </div>
