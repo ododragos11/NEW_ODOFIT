@@ -7,7 +7,7 @@ const Hero: FC = () => (
         <h1 className="text-4xl text-center">ODOFIT Compression Brace</h1>
 
         <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 gap-14 my-10">
-            <Link href="/T8-PRO-MAX_45W">
+            <Link href="/ODOFIT-COMPRESSION-BAND">
                 <div className="w-[310px] ml-auto">
                     <Image
                         src="/groinBrace/poza1_mod03fe.jpg"
@@ -44,33 +44,33 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="grid grid-cols-2 w-full h-[600px] my-10">
+        <div className="grid md:grid-cols-2 w-full h-screen md:h-[700px] my-10">
             <div className="relative h-full w-full">
                 <Image
-                    src="/groinBrace/vsbanner03fe.jpg"
+                    src="/banner_run_ok_v1.jpg"
                     alt="resistant"
                     layout="fill"
-                    className="absolute object-cover"
+                    className="absolute md:object-cover"
                 />
             </div>
             <div className="relative h-full w-full">
                 <Image
-                    src="/groinBrace/71kmpfqFxnL._AC_SL1500__27384.jpg"
+                    src="/banner_1.jpg"
                     alt="resistant"
                     layout="fill"
-                    className="absolute object-cover"
+                    className="absolute md:object-cover"
                 />
             </div>
         </div>
 
         <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 gap-14 my-10">
-            <Link href="/T8-PRO-MAX_45W">
+            <Link href="/ODOFIT-RESISTANCE-BAND">
                 <div className="w-[310px] ml-auto">
                     <Image
-                        src="/resistanceBand/71jLtZ4oeKL._AC_SL1500ea49.jpg"
+                        src="/hero2.png"
                         alt="slide1"
                         height={450}
-                        width={310}
+                        width={340}
                         className="object-fit cursor-pointer hover:scale-105 transition-all duration-500"
                     />
                     <div className="mb-4 space-y-2">
@@ -96,21 +96,21 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="grid grid-cols-2 w-full h-[600px] mt-10">
+        <div className="grid md:grid-cols-2 w-full h-screen md:h-[700px] mt-10">
+            <div className="relative h-full w-full">
+                <Image
+                    src="/hero2-1.png"
+                    alt="resistant"
+                    layout="fill"
+                    className="absolute md:object-cover"
+                />
+            </div>
             <div className="relative h-full w-full">
                 <Image
                     src="/resistanceBand/81A-3TJWEqL._AC_SL15000441.jpg"
                     alt="resistant"
                     layout="fill"
-                    className="absolute object-cover"
-                />
-            </div>
-            <div className="relative h-full w-full">
-                <Image
-                    src="/resistanceBand/811UMjj6dGL._AC_SL15000441.jpg"
-                    alt="resistant"
-                    layout="fill"
-                    className="absolute object-cover"
+                    className="absolute md:object-cover"
                 />
             </div>
         </div>

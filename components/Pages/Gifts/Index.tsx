@@ -55,7 +55,7 @@ const Gift: FC = () => {
             </div>
             <div className="flex justify-center mt-5">
                 <Image
-                    src="/images/StorageBags-Set3-RED/3_culori_rosu_147fa.jpg"
+                    src="/groinBrace/71kmpfqFxnL._AC_SL1500__27384.jpg"
                     width={300}
                     height={300}
                     alt="Gift"
