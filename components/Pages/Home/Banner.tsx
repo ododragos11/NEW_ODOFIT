@@ -10,7 +10,7 @@ const Banner: FC = () => (
             <SwiperSlide>
                 <div className="relative h-[80vh] ">
                     <Image
-                        src="/banner.jpg"
+                        src="/banner.png"
                         alt="slide1"
                         layout="fill"
                         className="absolute object-cover md:object-cover w-full h-full"
