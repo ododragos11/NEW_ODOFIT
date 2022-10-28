@@ -13,7 +13,7 @@ const Banner: FC = () => (
                         src="/banner.png"
                         alt="slide1"
                         layout="fill"
-                        className="absolute object-cover md:object-cover w-full h-full"
+                        className="absolute object-cover md:object-contain w-full h-full"
                     />
                 </div>
             </SwiperSlide>

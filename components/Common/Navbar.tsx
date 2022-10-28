@@ -1,18 +1,19 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { FC, useState } from 'react';
 import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 import { GiHamburgerMenu, GiShoppingBag } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 
 const Navbar: FC = () => {
     const [open, setOpen] = useState(false);
-
+    const router = useRouter();
+    const { pathname } = router;
     return (
         <div className=" sticky top-0 left-0 z-50 h-20 ">
             <nav
                 className={` flex justify-center items-center py-4  text-white ${
-                    open ? 'bg-black' : 'bg-transparent'
+                    open || pathname !== '/' ? 'bg-black' : 'bg-transparent'
                 } `}
             >
                 <div className="flex justify-evenly items-center w-[90%]">
