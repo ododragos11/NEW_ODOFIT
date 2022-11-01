@@ -8,7 +8,7 @@ const Banner: FC = () => (
     <section className="-mt-20">
         <Swiper slidesPerView={1} spaceBetween={0}>
             <SwiperSlide>
-                <div className="relative h-screen -mt-4 w-screen ">
+                <div className="relative h-screen -mt-8 w-screen ">
                     <Image
                         src="/banner.png"
                         alt="slide1"
