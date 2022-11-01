@@ -50,7 +50,7 @@ const Hero: FC = () => (
                 alt="resistant"
                 layout="fixed"
                 height={700}
-                width={960}
+                width={900}
                 className=" md:object-contain"
             />
             <Image
@@ -58,7 +58,7 @@ const Hero: FC = () => (
                 alt="resistant"
                 layout="fixed"
                 height={700}
-                width={960}
+                width={900}
                 className=" md:object-contain"
             />
         </div>
@@ -102,7 +102,7 @@ const Hero: FC = () => (
                 alt="resistant"
                 layout="intrinsic"
                 height={600}
-                width={960}
+                width={900}
                 className=" md:object-cover"
             />
 
@@ -111,12 +111,12 @@ const Hero: FC = () => (
                 alt="resistant"
                 layout="intrinsic"
                 height={600}
-                width={960}
+                width={900}
                 className=" md:object-contain"
             />
         </div>
 
-        <div className="bg-[#242424] text-[#47bbe6] h-[400px] w-full flex flex-col justify-center ">
+        <div className="bg-[#242424] text-[#47bbe6] h-[400px]  flex flex-col justify-center ">
             <p className="text-center text-xl w-[80%] mx-auto py-4">
                 I went up and down my 4 level home several times and even rollerskated a full hour,
                 and stood for awhile making dinner. I am serious as I write this: no pain. It feels
