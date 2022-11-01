@@ -44,23 +44,23 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="grid md:grid-cols-2 w-full h-screen md:h-[700px] my-10">
-            <div className="relative h-full w-full">
-                <Image
-                    src="/banner_run_ok_v1.jpg"
-                    alt="resistant"
-                    layout="fill"
-                    className="absolute md:object-cover"
-                />
-            </div>
-            <div className="relative h-full w-full">
-                <Image
-                    src="/banner_1.jpg"
-                    alt="resistant"
-                    layout="fill"
-                    className="absolute md:object-cover"
-                />
-            </div>
+        <div className="flex flex-col md:flex-row w-full md:h-[700px] my-10">
+            <Image
+                src="/Design_fara_titlu_42.png"
+                alt="resistant"
+                layout="fixed"
+                height={700}
+                width={960}
+                className=" md:object-contain"
+            />
+            <Image
+                src="/Design_fara_titlu_45.png"
+                alt="resistant"
+                layout="fixed"
+                height={700}
+                width={960}
+                className=" md:object-contain"
+            />
         </div>
 
         <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 gap-14 my-10">
@@ -96,23 +96,24 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="grid md:grid-cols-2 w-full h-screen md:h-[700px] mt-10">
-            <div className="relative h-full w-full">
-                <Image
-                    src="/hero2-1.png"
-                    alt="resistant"
-                    layout="fill"
-                    className="absolute md:object-cover"
-                />
-            </div>
-            <div className="relative h-full w-full">
-                <Image
-                    src="/resistanceBand/81A-3TJWEqL._AC_SL15000441.jpg"
-                    alt="resistant"
-                    layout="fill"
-                    className="absolute md:object-cover"
-                />
-            </div>
+        <div className="flex flex-col md:flex-row justify-center items-center w-full  mt-10">
+            <Image
+                src="/hero2-1.png"
+                alt="resistant"
+                layout="intrinsic"
+                height={600}
+                width={960}
+                className=" md:object-cover"
+            />
+
+            <Image
+                src="/Design_fara_titlu_44.png"
+                alt="resistant"
+                layout="intrinsic"
+                height={600}
+                width={960}
+                className=" md:object-contain"
+            />
         </div>
 
         <div className="bg-[#242424] text-[#47bbe6] h-[400px] w-full flex flex-col justify-center ">
