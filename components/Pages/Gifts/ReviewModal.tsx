@@ -19,7 +19,10 @@ const ReviewModal: FC<{
 
     return (
         <>
-            <Modal.Header>Thank you for reviewing our ( main product )!</Modal.Header>
+            <Modal.Header>
+                Thank you for reviewing our{' '}
+                <span className="uppercase font-bold  ">Odofit Hip Brace</span>!
+            </Modal.Header>
 
             <Modal.Body>
                 <div className="space-y-4">
@@ -28,8 +31,9 @@ const ReviewModal: FC<{
                         customers and development team.
                     </p>
                     <p className="text-base text-center leading-relaxed text-gray-700 dark:text-gray-400">
-                        Our team will now send you your ( Free product ) and you should recieve it
-                        in the mentioned time frame.
+                        Our team will now send you your{' '}
+                        <span className="uppercase font-bold  "> Memory Foam Leg Pillow</span> and
+                        you should recieve it in the mentioned time frame.
                     </p>
                 </div>
                 <h1 className="text-2xl font-semibold text-center my-5">
