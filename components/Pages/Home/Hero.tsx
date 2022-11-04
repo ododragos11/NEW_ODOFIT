@@ -10,10 +10,10 @@ const Hero: FC = () => (
             <Link href="/ODOFIT-COMPRESSION-BAND">
                 <div className="w-[310px] ml-auto">
                     <Image
-                        src="/groinBrace/poza1_mod03fe.jpg"
+                        src="/71kmpfqFxnL._AC_SL1500__27384.jpg"
                         alt="slide1"
-                        height={450}
-                        width={310}
+                        height={420}
+                        width={400}
                         className="object-fit cursor-pointer hover:scale-105 transition-all duration-500"
                     />
                     <div className="mb-4 space-y-2">
@@ -69,9 +69,9 @@ const Hero: FC = () => (
                     <Image
                         src="/hero2.png"
                         alt="slide1"
-                        height={450}
-                        width={340}
-                        className="object-fit cursor-pointer hover:scale-105 transition-all duration-500"
+                        height={400}
+                        width={320}
+                        className="object-cover cursor-pointer hover:scale-105 transition-all duration-500"
                     />
                     <div className="mb-4 space-y-2">
                         <h2 className="text-lg text-gray-600 text-center mt-3 tracking-widest uppercase">

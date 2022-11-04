@@ -44,14 +44,14 @@ const Navbar: FC = () => {
                     <div className="flex flex-col  items-center justify-center ">
                         <div>
                             <a href="/ODOFIT-COMPRESSION-BAND">
-                                <li className="list-none flex items-center cursor-pointer  text-xl py-3 font-semibold">
+                                <li className="list-none flex items-center cursor-pointer hover:text-sky-500 transition-all  text-xl py-3 font-semibold">
                                     ODOFIT Compression Brace
                                 </li>
                             </a>
                         </div>
                         <div>
                             <a href="/ODOFIT-RESISTANCE-BAND">
-                                <li className="list-none flex items-center cursor-pointer  text-xl py-3 font-semibold">
+                                <li className="list-none flex items-center cursor-pointer hover:text-sky-500 transition-all  text-xl py-3 font-semibold">
                                     ODOFIT Resistance Bands
                                 </li>
                             </a>
