@@ -46,7 +46,7 @@ const ReviewModal: FC<{
                 <h1 className="text-2xl font-semibold text-center my-5">
                     You have rated the product with
                 </h1>
-                <div className="flex  justify-center space-x-2 w-full ">
+                <div className="flex flex-col  items-center space-x-2 w-full ">
                     {Array(5)
                         .fill(0)
                         .map((_, i) => (
@@ -70,10 +70,10 @@ const ReviewModal: FC<{
         </>
     ) : (
         <>
-            <Modal.Header>Please leave your unbiased feedback</Modal.Header>
+            <Modal.Header>How would you rate Odofit Hip Brace </Modal.Header>
             <Modal.Body>
                 <div
-                    className="w-full flex justify-center"
+                    className="w-full flex flex-col items-center"
                     style={{
                         transform: 'scale(2.5)',
                     }}
@@ -84,6 +84,16 @@ const ReviewModal: FC<{
                         activeColor="#ffd700"
                         emptyIcon={<AiOutlineStar />}
                         filledIcon={<AiFillStar />}
+                    />
+                </div>
+                <div className="mt-4">
+                    <label htmlFor="feedback">Please leave your feedback : </label>
+                    <textarea
+                        name="feedback"
+                        id="feedback"
+                        className="w-full h-24 px-4 py-2 text-gray-700 border rounded-lg focus:outline-none"
+                        placeholder="Your feedback"
+                        rows={2}
                     />
                 </div>
             </Modal.Body>

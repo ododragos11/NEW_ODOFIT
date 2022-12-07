@@ -10,7 +10,7 @@ const Navbar: FC = () => {
     const router = useRouter();
     const { pathname } = router;
     return (
-        <div className=" sticky top-0 left-0 z-50 h-20 ">
+        <div className="absolute top-0 left-0 z-50 h-20 w-screen ">
             <nav
                 className={` flex justify-center items-center py-4  text-white ${
                     open || pathname !== '/' ? 'bg-black' : 'bg-transparent'

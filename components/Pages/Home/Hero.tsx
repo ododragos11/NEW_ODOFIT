@@ -44,7 +44,7 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="flex flex-col md:flex-row w-full md:h-[700px] my-10">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full md:h-[700px] my-10 mx-auto">
             <Image
                 src="/Design_fara_titlu_42.png"
                 alt="resistant"
@@ -103,7 +103,7 @@ const Hero: FC = () => (
                 layout="intrinsic"
                 height={600}
                 width={900}
-                className=" md:object-cover"
+                className=" object-cover"
             />
 
             <Image
@@ -112,7 +112,7 @@ const Hero: FC = () => (
                 layout="intrinsic"
                 height={600}
                 width={900}
-                className=" md:object-contain"
+                className=" object-cover"
             />
         </div>
 

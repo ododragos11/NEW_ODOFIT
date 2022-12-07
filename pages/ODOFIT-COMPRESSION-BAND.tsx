@@ -2,6 +2,7 @@ import { NextPage } from 'next';
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Select from 'react-select';
+import { FaAmazon } from 'react-icons/fa';
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
@@ -89,7 +90,7 @@ const Product: NextPage = () => {
                         VAT Included. FREE Shipping for Prime Users.
                     </p>
                     <h2 className="text-3xl font-semibold mt-5">$27.97</h2>
-                    <div className="my-5">
+                    {/* <div className="my-5">
                         <Select
                             options={[
                                 {
@@ -104,9 +105,9 @@ const Product: NextPage = () => {
                             placeholder="Left - $27.97"
                             className="w-96"
                         />
-                    </div>
+                    </div> */}
                     <div className="flex">
-                        <div>
+                        {/* <div>
                             <button
                                 type="button"
                                 onClick={() => setCounter(counter > 1 ? counter - 1 : counter)}
@@ -126,14 +127,17 @@ const Product: NextPage = () => {
                             >
                                 +
                             </button>
-                        </div>
+                        </div> */}
 
-                        <button
-                            type="button"
-                            className="bg-black text-[#F6C567] px-10 py-2 text-sm rounded-md ml-4"
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.amazon.com/dp/B08KZQZQ3S/ref=cm_sw_em_r_mt_dp_U_1ZQ7FbZJZJZ1S"
+                            className="bg-[#D38106] text-white flex items-center px-10 py-2 text-sm rounded-md mt-4"
                         >
-                            Add to Cart
-                        </button>
+                            <span className="font-semibold">Check price on</span>
+                            <FaAmazon className="text-white mt-1 text-lg ml-2" />
+                        </a>
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>

@@ -9,6 +9,7 @@ import 'swiper/swiper.min.css';
 import { Pagination, Navigation } from 'swiper';
 
 import Image from 'next/image';
+import { FaAmazon } from 'react-icons/fa';
 
 const Product: NextPage = () => {
     const [counter, setCounter] = useState(1);
@@ -100,35 +101,16 @@ const Product: NextPage = () => {
                     </p>
                     <h2 className="text-3xl font-semibold mt-5">$25.98</h2>
 
-                    <div className="flex mt-8">
-                        <div>
-                            <button
-                                type="button"
-                                onClick={() => setCounter(counter > 1 ? counter - 1 : counter)}
-                                className="bg-black text-[#F6C567] font-bold px-4 py-2 rounded-md"
-                            >
-                                -
-                            </button>
-                        </div>
-                        <span className="px-8 flex items-center bg-gray-100 rounded-md mx-2">
-                            {counter}
-                        </span>
-                        <div>
-                            <button
-                                type="button"
-                                onClick={() => setCounter(counter + 1)}
-                                className="bg-black text-[#F6C567] font-bold px-4 py-2 rounded-md "
-                            >
-                                +
-                            </button>
-                        </div>
-
-                        <button
-                            type="button"
-                            className="bg-black text-[#F6C567] px-10 py-2 text-sm rounded-md ml-4"
+                    <div className="flex ">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.amazon.com/dp/B08KZQZQ3S/ref=cm_sw_em_r_mt_dp_U_1ZQ7FbZJZJZ1S"
+                            className="bg-[#D38106] text-white flex items-center px-10 py-2 text-sm rounded-md mt-4"
                         >
-                            Add to Cart
-                        </button>
+                            <span className="font-semibold">Check price on</span>
+                            <FaAmazon className="text-white mt-1 text-lg ml-2" />
+                        </a>
                     </div>
                     <div className="mt-8 text-xl space-y-5 ">
                         <p>

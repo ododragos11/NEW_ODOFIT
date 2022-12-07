@@ -1,11 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import { FC, useState, FormEvent } from 'react';
 import { db } from 'firebase-config';
 import { collection, addDoc } from 'firebase/firestore';
-import Image from 'next/image';
 import { Modal } from 'flowbite-react';
 import Router from 'next/router';
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { toast } from 'react-toastify';
 import ReviewModal from './ReviewModal';
 
 import 'swiper/swiper-bundle.min.css';
@@ -35,12 +36,11 @@ const Gift: FC = () => {
                 Zip_Code: Number(userInfo.Zip_Code),
                 Phone_Number: Number(userInfo.Phone_Number),
             });
-            alert('Your Order has been Submitted');
+            toast.success('Your Order has been Submitted');
             setSubmitLoader(false);
             setShowModal(true);
         } catch (err) {
-            console.error(err);
-            alert('Something went wrong while submitting the form, Please try again');
+            toast.error('Something went wrong while submitting the form, Please try again');
             Router.reload();
             setSubmitLoader(false);
         }
@@ -65,23 +65,24 @@ const Gift: FC = () => {
             </div>
             <div className="flex flex-col md:justify-center  md:flex-row">
                 <div className="flex flex-col items-center mt-20 h-fit shadow-xl">
-                    <Swiper autoplay modules={[Autoplay]} loop className="mySwiper w-[380px]">
+                    <Swiper
+                        autoplay
+                        modules={[Autoplay]}
+                        loop
+                        className="mySwiper  mx-4 md:mx-auto w-[95%] md:w-[380px]"
+                    >
                         <SwiperSlide>
-                            <Image
+                            <img
                                 src="/leg-pillow/legpillow2.jpg"
-                                width={380}
-                                height={380}
                                 alt="Gift"
-                                className="rounded-t-md"
+                                className="rounded-t-md w-screen  md:mx-auto md:h-[380px] md:w-[380px] "
                             />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image
+                            <img
                                 src="/leg-pillow/legpillow.jpg"
-                                width={380}
-                                height={380}
                                 alt="Gift"
-                                className="rounded-t-md"
+                                className="rounded-t-md w-screen  md:mx-auto md:h-[380px] md:w-[380px] "
                             />
                         </SwiperSlide>
                     </Swiper>

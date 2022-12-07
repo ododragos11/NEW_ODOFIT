@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* hide the horiztonal scrollbar */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 6px !important;
+    border-radius: 14px;
+    background-color: white;
+    height: 0;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background-color: #a39f9f;
+    height: 0;
+}
