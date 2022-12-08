@@ -6,9 +6,9 @@ const Hero: FC = () => (
     <section className=" w-screen flex flex-col items-center my-16 ">
         <h1 className="text-4xl text-center">ODOFIT Compression Brace</h1>
 
-        <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 gap-14 my-10">
+        <div className=" md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">
             <Link href="/ODOFIT-COMPRESSION-BAND">
-                <div className="w-[310px] ml-auto">
+                <div className="md:w-[310px] md:ml-auto mx-auto">
                     <Image
                         src="/71kmpfqFxnL._AC_SL1500__27384.jpg"
                         alt="slide1"
@@ -25,7 +25,7 @@ const Hero: FC = () => (
                     </div>
                 </div>
             </Link>
-            <div className="flex flex-col mt-24 text-xl  text-gray-700 space-y-10">
+            <div className="flex flex-col md:mt-24 text-xl  text-gray-700 space-y-10">
                 <p>
                     {' '}
                     ✔️ <span className="font-medium">SPEED UP</span> your recovery by providing
@@ -44,7 +44,7 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center w-full md:h-[700px] my-10 mx-auto">
+        {/* <div className="flex flex-col md:flex-row justify-center items-center w-full md:h-[700px] my-10 mx-auto">
             <Image
                 src="/Design_fara_titlu_42.png"
                 alt="resistant"
@@ -61,11 +61,31 @@ const Hero: FC = () => (
                 width={900}
                 className=" md:object-contain"
             />
+        </div> */}
+
+        <div className="flex flex-col md:flex-row justify-center items-center w-full  mt-10">
+            <Image
+                src="/Design_fara_titlu_42.png"
+                alt="resistant"
+                layout="intrinsic"
+                height={600}
+                width={900}
+                className=" object-cover"
+            />
+
+            <Image
+                src="/Design_fara_titlu_45.png"
+                alt="resistant"
+                layout="intrinsic"
+                height={600}
+                width={900}
+                className=" object-cover"
+            />
         </div>
 
-        <div className="hidden w-[1000px] space-x-4 mx-auto md:grid grid-cols-2 gap-14 my-10">
+        <div className="md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">
             <Link href="/ODOFIT-RESISTANCE-BAND">
-                <div className="w-[310px] ml-auto">
+                <div className="md:w-[310px] md:ml-auto mx-auto">
                     <Image
                         src="/hero2.png"
                         alt="slide1"
@@ -82,7 +102,7 @@ const Hero: FC = () => (
                     </div>
                 </div>
             </Link>
-            <div className="flex flex-col mt-24 text-xl  text-gray-700 space-y-10">
+            <div className="flex flex-col md:mt-24 text-xl  text-gray-700 space-y-10">
                 <p>
                     ✔️ With our hip resistance bands you can achieve your desired{' '}
                     <strong>BOOTY SHAPE</strong> in just 20 minutes workout at <strong>HOME</strong>

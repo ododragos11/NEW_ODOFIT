@@ -3,12 +3,10 @@ import { Modal } from 'flowbite-react';
 import { db } from 'firebase-config';
 import { collection, addDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
-import { useRouter } from 'next/router';
 
 const ContactForm: FC<{
     setShowModal: Dispatch<SetStateAction<boolean>>;
 }> = ({ setShowModal }) => {
-    const { reload } = useRouter();
     const [userInfo, setUserInfo] = useState({
         name: '',
         email: '',
