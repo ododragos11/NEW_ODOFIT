@@ -8,12 +8,20 @@ const Banner: FC = () => (
     <section className="-mt-20">
         <Swiper slidesPerView={1} spaceBetween={0}>
             <SwiperSlide>
-                <div className="relative h-screen -mt-8 w-screen ">
+                <div className="relative h-screen hidden md:block -mt-8 w-screen md:">
                     <Image
                         src="/banner.png"
                         alt="slide1"
                         layout="fill"
                         className="absolute object-cover md:object-cover w-screen h-full"
+                    />
+                </div>
+                <div className="relative h-screen -mt-8 w-screen md:hidden">
+                    <Image
+                        src="/banner.png"
+                        alt="slide1"
+                        layout="fill"
+                        className="absolute  object-cover w-screen h-full"
                     />
                 </div>
             </SwiperSlide>

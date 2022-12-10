@@ -64,14 +64,16 @@ const Hero: FC = () => (
         </div> */}
 
         <div className="flex flex-col md:flex-row justify-center items-center w-full  mt-10">
-            <Image
-                src="/Design_fara_titlu_42.png"
-                alt="resistant"
-                layout="intrinsic"
-                height={600}
-                width={900}
-                className=" object-cover"
-            />
+            <div className="hidden md:block ">
+                <Image
+                    src="/Design_fara_titlu_42.png"
+                    alt="resistant"
+                    layout="intrinsic"
+                    height={600}
+                    width={900}
+                    className=" object-cover "
+                />
+            </div>
 
             <Image
                 src="/Design_fara_titlu_45.png"
@@ -97,7 +99,7 @@ const Hero: FC = () => (
                         <h2 className="text-lg text-gray-600 text-center mt-3 tracking-widest uppercase">
                             ODOFIT
                         </h2>
-                        <h1 className="text-2xl text-center  ">ODOFIT Compression Brace</h1>
+                        <h1 className="text-2xl text-center  ">ODOFIT Resistance Bands</h1>
                         <p className="text-gray-500 text-center font-medium">$27.97</p>
                     </div>
                 </div>
