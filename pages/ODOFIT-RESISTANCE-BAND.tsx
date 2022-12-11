@@ -12,17 +12,6 @@ const Product: NextPage = () => (
             amazonLink="https://www.amazon.com/stores/page/9C0A2711-7BF2-4D6E-AFDC-85EE95BBD8E4?ingress=2&visitId=f1253a18-b6be-4f81-913d-c3e313775f63&store_ref=bl_ast_dp_nofrnas_sto&ref_=ast_dp_bln_nofrnas_sto"
             title="ODOFIT Resistance Brace"
             price={25.98}
-            description={
-                <p>
-                    ✔️Package contains 3 x ODOFIT Resistance Bands ( 1 x Small, 1 x Medium, 1 x
-                    Large) , 1 x Travel Pouch, 1 x Workout Instruction
-                    <br />
-                    <br /> ✔️Premium Sweat Resistance Technology <br />
-                    <br />
-                    ✔️Compatible with multiple types of exercises such as P90X, Insanity, etc.{' '}
-                    <br /> <br /> ✔️US Customer Support
-                </p>
-            }
         >
             <ProductSwiper
                 images={[
@@ -34,6 +23,10 @@ const Product: NextPage = () => (
             />
         </ProductHeader>
         <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+            <h1 className="font-semibold text-center font-serif mt-5 text-2xl underline underline-offset-4">
+                {' '}
+                Description
+            </h1>
             <ProductInfo
                 title="Non-Slip Design."
                 image="/resistanceBand/71jLtZ4oeKL._AC_SL1500ea49.jpg"
@@ -72,6 +65,25 @@ const Product: NextPage = () => (
                 }
             />
         </div>
+
+        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+            <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
+                Features
+            </h1>
+
+            <div className="flex flex-col md:flex-row justify-center items-center text-gray-600 bg-white p-10">
+                <p>
+                    ✔️Package contains 3 x ODOFIT Resistance Bands ( 1 x Small, 1 x Medium, 1 x
+                    Large) , 1 x Travel Pouch, 1 x Workout Instruction
+                    <br />
+                    <br /> ✔️Premium Sweat Resistance Technology <br />
+                    <br />
+                    ✔️Compatible with multiple types of exercises such as P90X, Insanity, etc.{' '}
+                    <br /> <br /> ✔️US Customer Support
+                </p>
+            </div>
+        </div>
+
         <ProductYTVideo url="https://www.youtube.com/embed/Vkw6kvsaRZo" />
     </section>
 );

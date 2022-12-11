@@ -7,8 +7,8 @@ const ProductHeader: FC<{
     price: number;
     amazonLink: string;
     children: ReactNode;
-    description: ReactNode;
-}> = ({ amazonLink, children, description, price, title }) => (
+    // description: ReactNode;
+}> = ({ amazonLink, children, price, title }) => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:w-[80rem] mx-auto pt-10 px-5">
         <div className="md:w-[500px] ">{children}</div>
         <div className="text-center md:text-left">
@@ -47,7 +47,7 @@ const ProductHeader: FC<{
                     <FaAmazon className="text-white mt-1 text-lg ml-2" />
                 </a>
             </div>
-            <div className=" justify-center fixed z-50 bottom-0 left-0 bg-white flex  w-screen ">
+            <div className=" justify-center fixed z-50 bottom-0 left-0 bg-white flex  w-screen md:hidden ">
                 <a
                     target="_blank"
                     rel="noreferrer"
@@ -58,7 +58,7 @@ const ProductHeader: FC<{
                     <FaAmazon className="text-white mt-1 text-lg ml-2 " />
                 </a>
             </div>
-            <div className="mt-8 md:text-xl space-y-5 text-left">{description}</div>
+            {/* <div className="mt-8 md:text-xl space-y-5 text-left">{description}</div> */}
         </div>
     </div>
 );

@@ -9,7 +9,7 @@ const ProductSwiper: FC<{
     <Carousel showThumbs showIndicators={false} showStatus={false} autoPlay infiniteLoop>
         {images.map((src) => (
             <div key={src} className="mb-8">
-                <img className="object-cover w-[500px] h-fit " src={src} alt="product" />
+                <img className="object-cover" src={src} alt="product" />
             </div>
         ))}
     </Carousel>

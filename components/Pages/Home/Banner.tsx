@@ -16,13 +16,16 @@ const Banner: FC = () => (
                         className="absolute object-cover md:object-cover w-screen h-full"
                     />
                 </div>
-                <div className="relative h-screen -mt-8 w-screen md:hidden">
-                    <Image
-                        src="/banner.png"
-                        alt="slide1"
-                        layout="fill"
-                        className="absolute  object-cover w-screen h-full"
-                    />
+                <div className="relative   w-screen md:hidden">
+                    <div className="h-44 bg-black" />
+                    <div className="h-[35rem]">
+                        <Image
+                            src="/Design_fara_titlu_57.png"
+                            alt="slide1"
+                            layout="fill"
+                            className="absolute object-contain w-screen h-full"
+                        />
+                    </div>
                 </div>
             </SwiperSlide>
         </Swiper>

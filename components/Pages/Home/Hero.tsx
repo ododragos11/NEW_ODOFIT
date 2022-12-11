@@ -3,7 +3,7 @@ import { FC } from 'react';
 import Link from 'next/link';
 
 const Hero: FC = () => (
-    <section className=" w-screen flex flex-col items-center my-16 ">
+    <section className=" w-screen flex flex-col items-center -mt-24 mb-16 md:my-16 ">
         <h1 className="text-4xl text-center">ODOFIT Compression Brace</h1>
 
         <div className=" md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">

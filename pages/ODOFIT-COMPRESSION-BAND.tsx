@@ -12,15 +12,6 @@ const Product: NextPage = () => (
             amazonLink="https://www.amazon.com/stores/page/5B603D9A-4158-46BD-8D85-90CE90F7347D?ingress=2&visitId=f1253a18-b6be-4f81-913d-c3e313775f63&store_ref=bl_ast_dp_nofrnas_sto&ref_=ast_dp_bln_nofrnas_sto"
             title="ODOFIT Compression Brace"
             price={27.97}
-            description={
-                <p>
-                    ✔️ Package contains 1 x ODOFIT Compression Brace, 1 x Instruction Manual, 1 x
-                    Travel Pouch <br />
-                    <br /> ✔️ Premium Quality Breathable Neoprene <br />
-                    <br />
-                    ✔️ UNIQUE 3 Strap-Design <br /> <br /> ✔️ US Customer Support
-                </p>
-            }
         >
             <ProductSwiper
                 images={[
@@ -32,6 +23,11 @@ const Product: NextPage = () => (
             />
         </ProductHeader>
         <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+            <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
+                {' '}
+                Description
+            </h1>
+
             <ProductInfo
                 title="Remember your last painless day?"
                 image="/Design_fara_titlu_54.png"
@@ -69,6 +65,21 @@ const Product: NextPage = () => (
                     </span>
                 }
             />
+        </div>
+        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+            <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
+                Features
+            </h1>
+
+            <div className="flex flex-col md:flex-row justify-center items-center text-gray-600 bg-white p-10">
+                <p>
+                    ✔️ Package contains 1 x ODOFIT Compression Brace, 1 x Instruction Manual, 1 x
+                    Travel Pouch <br />
+                    <br /> ✔️ Premium Quality Breathable Neoprene <br />
+                    <br />
+                    ✔️ UNIQUE 3 Strap-Design <br /> <br /> ✔️ US Customer Support
+                </p>
+            </div>
         </div>
         <ProductYTVideo url="https://www.youtube.com/embed/5qzyKR20Qa4" />
     </section>
