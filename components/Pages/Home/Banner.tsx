@@ -18,7 +18,7 @@ const Banner: FC = () => (
                 </div>
                 <div className="relative   w-screen md:hidden">
                     <div className="h-44 bg-black" />
-                    <div className="h-[35rem]">
+                    <div className="h-[34rem]">
                         <Image
                             src="/Design_fara_titlu_57.png"
                             alt="slide1"
