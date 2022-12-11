@@ -15,6 +15,7 @@ const ProductInfo: FC<{
             reverse ? 'flex-col md:flex-row-reverse' : 'flex-col md:flex-row'
         )}
     >
+        <h1 className="text-3xl font-semibold my-5 md:hidden text-center">{title}</h1>
         <div className="md:w-1/2 rounded-md relative h-[150px] md:h-[250px]">
             <Image
                 src={image}
@@ -29,7 +30,7 @@ const ProductInfo: FC<{
                 reverse ? 'md:pr-8' : 'md:pl-8'
             )}
         >
-            <h1 className="text-3xl font-semibold my-5">{title}</h1>
+            <h1 className="text-3xl font-semibold my-5 hidden md:block">{title}</h1>
             <p className="pr-4 text-lg">{description}</p>
         </div>
     </div>

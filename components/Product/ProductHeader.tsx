@@ -36,7 +36,7 @@ const ProductHeader: FC<{
                     </button>
                 </div>
             </section>
-            <div className="flex justify-center md:justify-start mb-5 md:my-2 ">
+            <div className=" justify-center md:justify-start mb-5 md:my-2 hidden md:flex ">
                 <a
                     target="_blank"
                     rel="noreferrer"
@@ -45,6 +45,17 @@ const ProductHeader: FC<{
                 >
                     <span className="font-semibold">Check price on</span>
                     <FaAmazon className="text-white mt-1 text-lg ml-2" />
+                </a>
+            </div>
+            <div className=" justify-center fixed z-50 bottom-0 left-0 bg-white flex  w-screen ">
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={amazonLink}
+                    className="bg-[#D38106] text-white flex items-center justify-center w-full mx-4 mb-4  py-3 text-sm rounded-md mt-4"
+                >
+                    <span className="font-semibold">Check price on</span>
+                    <FaAmazon className="text-white mt-1 text-lg ml-2 " />
                 </a>
             </div>
             <div className="mt-8 md:text-xl space-y-5 text-left">{description}</div>
