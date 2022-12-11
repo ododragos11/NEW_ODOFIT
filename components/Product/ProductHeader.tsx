@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FC, ReactNode } from 'react';
 import { FaAmazon } from 'react-icons/fa';
 
@@ -14,6 +15,27 @@ const ProductHeader: FC<{
             <h1 className="text-3xl font-semibold">{title}</h1>
             <p className=" font-semibold mt-4 ">VAT Included. FREE Shipping for Prime Users.</p>
             <h2 className="text-3xl font-semibold mt-5">${price}</h2>
+            <section className="flex flex-col justify-evenly md:justify-start  items-start my-5">
+                <div className="flex flex-row items-center space-y-2">
+                    <span className=" font-semibold flex">Size :</span>
+                    <button
+                        type="button"
+                        className="py-2 px-3 ml-2 rounded border-2 border-blue-500 bg-blue-400 bg-opacity-5 text-blue-600 font-medium flex flex-col items-center justify-center"
+                    >
+                        <span className="text-sm">Waist - Up to 42" circumference</span>
+                        <span className="text-xs">Thigh - Up to 27" circumference</span>
+                    </button>
+                </div>
+                <div className="flex items-center mt-5 ">
+                    <span className=" font-semibold">Gender : </span>
+                    <button
+                        type="button"
+                        className="py-2 px-3 ml-2 rounded border-2 border-blue-500 bg-blue-400 bg-opacity-5 text-blue-600 font-medium flex flex-col items-center justify-center"
+                    >
+                        <span className="text-sm">Unisex</span>
+                    </button>
+                </div>
+            </section>
             <div className="flex justify-center md:justify-start mb-5 md:my-2 ">
                 <a
                     target="_blank"

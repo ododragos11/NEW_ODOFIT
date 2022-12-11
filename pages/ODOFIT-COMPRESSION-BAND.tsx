@@ -34,7 +34,7 @@ const Product: NextPage = () => (
         <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
             <ProductInfo
                 title="Remember your last painless day?"
-                image="/groinBrace/vsbanner03fe.jpg"
+                image="/Design_fara_titlu_54.png"
                 description={
                     <span>
                         Injury support for people of all ages and genders. This brace will reduce
@@ -46,7 +46,7 @@ const Product: NextPage = () => (
 
             <ProductInfo
                 title="Recovery reinvented."
-                image="/groinBrace/poza1_mod03fe.jpg"
+                image="/Design_fara_titlu_55.png"
                 description={
                     <span>
                         This <strong> UNIQUE </strong> hamstring compression brace has designed over
@@ -59,7 +59,7 @@ const Product: NextPage = () => (
 
             <ProductInfo
                 title="First 3-Strap Brace on the market."
-                image="/groinBrace/vsbanner03fe.jpg"
+                image="/Design_fara_titlu_56.png"
                 description={
                     <span>
                         Most compression braces have 2 straps, the innovation ODOFIT come with is
