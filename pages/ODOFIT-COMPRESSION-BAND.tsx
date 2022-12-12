@@ -22,46 +22,49 @@ const Product: NextPage = () => (
                 ]}
             />
         </ProductHeader>
-        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+        <div className="md:w-[70rem] mx-auto py-10 p-2 md:p-0 ">
             <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
                 {' '}
                 Description
             </h1>
 
             <ProductInfo
-                title="Remember your last painless day?"
+                title="UNIQUE on the Market 3-STRAP DESIGN"
                 image="/Design_fara_titlu_54.png"
                 description={
                     <span>
-                        Injury support for people of all ages and genders. This brace will reduce
-                        you nerve or muscle pain using an innovative compression system which boosts
-                        blood flow.
+                        Injury support for people of all ages and genders, this brace can be worn
+                        under or over clothes. Most compression braces have 2 straps, the innovation
+                        ODOFIT come with is the addition of a 3rd strap. Our research showed that
+                        adding an extra strap will provide optimal coverage of the affected area.
                     </span>
                 }
             />
 
             <ProductInfo
-                title="Recovery reinvented."
+                title="ENJOY YOUR FAVORITE ACTIVITIES AGAIN."
                 image="/Design_fara_titlu_55.png"
                 description={
                     <span>
-                        This <strong> UNIQUE </strong> hamstring compression brace has designed over
-                        the span of several years to provide our clients with a solution to
-                        <strong> sciatica pain, hamstring pain and much more !</strong>
+                        If you enjoy running, playing golf or simply being active but the pain stop
+                        you, this brace is the perfect aid. This brace is designed to provide the
+                        necessary warmth and compression in order to minimize pain and numbing so
+                        you can, once again, enjoy doing your favorite things.
                     </span>
                 }
                 reverse
             />
 
             <ProductInfo
-                title="First 3-Strap Brace on the market."
+                title="One BRACE can be used to improve multiple conditions."
                 image="/Design_fara_titlu_56.png"
                 description={
                     <span>
-                        Most compression braces have 2 straps, the innovation ODOFIT come with is
-                        the addition of a 3rd strap. Our research showed that adding an extra strap
-                        will provide optimal coverage of the affected area. This brace also has an
-                        anti-slip design so you can enjoy wearing it anywhere !
+                        This brace will provide injury support for a number of conditions such as:
+                        sciatica pain, hip flexor pain, groin pull, thigh pain, etc. This is
+                        achieved by restoring mobility and movement, decreasing tension on the
+                        muscle while also providing hip support and increased blood flow to the
+                        affected limb.
                     </span>
                 }
             />

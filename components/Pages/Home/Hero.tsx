@@ -74,16 +74,19 @@ const Hero: FC = () => (
                     className=" object-cover "
                 />
             </div>
-
-            <Image
-                src="/Design_fara_titlu_45.png"
-                alt="resistant"
-                layout="intrinsic"
-                height={600}
-                width={900}
-                className=" object-cover"
-            />
+            <div className="md:-mt-[0.5px]">
+                <Image
+                    src="/Design_fara_titlu_59.png"
+                    alt="resistant"
+                    layout="intrinsic"
+                    height={600}
+                    width={900}
+                    className=" object-cover "
+                />
+            </div>
         </div>
+
+        <h1 className="text-4xl text-center mt-10">ODOFIT Resistance Brace</h1>
 
         <div className="md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">
             <Link href="/ODOFIT-RESISTANCE-BAND">
