@@ -3,7 +3,7 @@ import { FC } from 'react';
 const ProductYTVideo: FC<{
     url: string;
 }> = ({ url }) => (
-    <div className="md:w-[80rem] mx-auto py-10 ">
+    <div className="md:w-[70rem] mx-auto py-10 ">
         <iframe
             title="product-video"
             allowFullScreen

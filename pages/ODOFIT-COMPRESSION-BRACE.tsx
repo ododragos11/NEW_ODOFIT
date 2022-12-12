@@ -5,9 +5,10 @@ import {
     ProductSwiper,
     ProductYTVideo,
 } from 'components/Product/Index';
+import ProductReview from 'components/Product/ProductReview';
 
 const Product: NextPage = () => (
-    <section className="bg-[#F8F8F8]">
+    <section className="bg-white">
         <ProductHeader
             amazonLink="https://www.amazon.com/stores/page/5B603D9A-4158-46BD-8D85-90CE90F7347D?ingress=2&visitId=f1253a18-b6be-4f81-913d-c3e313775f63&store_ref=bl_ast_dp_nofrnas_sto&ref_=ast_dp_bln_nofrnas_sto"
             title="ODOFIT Compression Brace"
@@ -85,6 +86,48 @@ const Product: NextPage = () => (
             </div>
         </div>
         <ProductYTVideo url="https://www.youtube.com/embed/5qzyKR20Qa4" />
+        <div className="md:w-[68rem] mx-auto py-10 p-5 md:p-0 mb-10 ">
+            <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
+                Customer Reviews
+            </h1>
+            <ProductReview
+                name="Shannon"
+                rating={5}
+                border
+                review={
+                    <span>
+                        My husband has been dealing with hip pain for about 6 months now. He wore
+                        this to work the day after it arrived and came home and told me it was life
+                        changing. He works in the construction industry and is constantly walking
+                        and going up and down ladders and stairs. <br /> It’s been over a week now
+                        and I can definitely see a difference in the way he walks and moves while
+                        wearing it. It’s extremely easy to put on and he has no issues wearing it
+                        under his clothing.
+                    </span>
+                }
+            />
+            <ProductReview
+                name="Niv"
+                rating={5}
+                border
+                review="It's very good in holding your muscles and creating the balance needed for you to get back to shape."
+            />
+
+            <ProductReview
+                name="Abhi"
+                rating={5}
+                review={
+                    <span>
+                        Been really struggling with sciatica pain from a herniated disc. I’ve been
+                        steadily rehabbing but I find myself unable to do things like hiking,
+                        playing basketball, lifting heavy because it really aggravates my foot and
+                        the bitch goes numb. <br />
+                        With this brace I’m pretty much back to doing things without having negative
+                        repercussions of re-injury from pushing too hard.
+                    </span>
+                }
+            />
+        </div>
     </section>
 );
 

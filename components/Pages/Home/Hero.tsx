@@ -7,7 +7,7 @@ const Hero: FC = () => (
         <h1 className="text-4xl text-center">ODOFIT Compression Brace</h1>
 
         <div className=" md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">
-            <Link href="/ODOFIT-COMPRESSION-BAND">
+            <Link href="/ODOFIT-COMPRESSION-BRACE">
                 <div className="md:w-[310px] md:ml-auto mx-auto">
                     <Image
                         src="/71kmpfqFxnL._AC_SL1500__27384.jpg"
@@ -86,7 +86,7 @@ const Hero: FC = () => (
             </div>
         </div>
 
-        <h1 className="text-4xl text-center mt-10">ODOFIT Resistance Brace</h1>
+        <h1 className="text-4xl text-center mt-10">ODOFIT Resistance Bands</h1>
 
         <div className="md:w-[1000px] space-x-4 mx-auto grid md:grid-cols-2 gap-14 my-10">
             <Link href="/ODOFIT-RESISTANCE-BAND">

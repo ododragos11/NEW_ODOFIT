@@ -43,7 +43,7 @@ const Navbar: FC = () => {
                 {open && (
                     <div className="flex flex-col  items-center justify-center ">
                         <div>
-                            <a href="/ODOFIT-COMPRESSION-BAND">
+                            <a href="/ODOFIT-COMPRESSION-BRACE">
                                 <li className="list-none flex items-center cursor-pointer hover:text-sky-500 transition-all  text-xl py-3 font-semibold">
                                     ODOFIT Compression Brace
                                 </li>

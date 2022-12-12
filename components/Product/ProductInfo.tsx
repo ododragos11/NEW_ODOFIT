@@ -11,7 +11,7 @@ const ProductInfo: FC<{
 }> = ({ image, description, title, reverse }) => (
     <div
         className={clx(
-            'flex    bg-white py-5 md:py-10  w-full md:px-5 md:items-center',
+            'flex    bg-white py-5 md:py-10  w-full px-5 md:items-center',
             reverse ? 'flex-col md:flex-row-reverse' : 'flex-col md:flex-row'
         )}
     >
