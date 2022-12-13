@@ -11,12 +11,12 @@ const ProductInfo: FC<{
 }> = ({ image, description, title, reverse }) => (
     <div
         className={clx(
-            'flex    bg-white py-5 md:py-10  w-full px-5 md:items-center',
+            'flex    bg-white py-5 md:py-10  w-full px-2 md:px-5 md:items-center',
             reverse ? 'flex-col md:flex-row-reverse' : 'flex-col md:flex-row'
         )}
     >
         <h1 className="text-3xl font-semibold my-5 md:hidden text-center">{title}</h1>
-        <div className="md:w-1/2 rounded-md relative h-[150px] md:h-[250px]">
+        <div className="md:w-1/2 rounded-md relative h-[200px] md:h-[250px]">
             <Image
                 src={image}
                 alt="product"
@@ -31,7 +31,7 @@ const ProductInfo: FC<{
             )}
         >
             <h1 className="text-3xl font-semibold my-5 hidden md:block">{title}</h1>
-            <p className="pr-4 text-lg">{description}</p>
+            <p className="md:pr-4 text-lg">{description}</p>
         </div>
     </div>
 );

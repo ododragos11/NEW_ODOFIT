@@ -23,7 +23,7 @@ const Product: NextPage = () => (
                 ]}
             />
         </ProductHeader>
-        <div className="md:w-[70rem] mx-auto py-10 p-2 md:p-0 ">
+        <div className="md:w-[70rem] mx-auto md:py-10 p-2 md:p-0 ">
             <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
                 {' '}
                 Description
@@ -31,7 +31,7 @@ const Product: NextPage = () => (
 
             <ProductInfo
                 title="UNIQUE on the Market 3-STRAP DESIGN"
-                image="/Design_fara_titlu_54.png"
+                image="/Banner_2.jpg"
                 description={
                     <span>
                         Injury support for people of all ages and genders, this brace can be worn
@@ -44,7 +44,7 @@ const Product: NextPage = () => (
 
             <ProductInfo
                 title="ENJOY YOUR FAVORITE ACTIVITIES AGAIN."
-                image="/Design_fara_titlu_55.png"
+                image="/Banner_3.jpg"
                 description={
                     <span>
                         If you enjoy running, playing golf or simply being active but the pain stop
@@ -58,7 +58,7 @@ const Product: NextPage = () => (
 
             <ProductInfo
                 title="One BRACE can be used to improve multiple conditions."
-                image="/Design_fara_titlu_56.png"
+                image="/Banner_4.jpg"
                 description={
                     <span>
                         This brace will provide injury support for a number of conditions such as:
@@ -70,7 +70,7 @@ const Product: NextPage = () => (
                 }
             />
         </div>
-        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+        <div className="md:w-[70rem] mx-auto md:py-10 p-5 md:p-0 ">
             <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
                 Features
             </h1>
