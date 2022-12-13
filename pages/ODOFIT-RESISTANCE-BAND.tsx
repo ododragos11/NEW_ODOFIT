@@ -23,7 +23,7 @@ const Product: NextPage = () => (
                 ]}
             />
         </ProductHeader>
-        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+        <div className="md:w-[70rem] mx-auto md:py-10 p-5 md:p-0 ">
             <h1 className="font-semibold text-center font-serif mt-5 text-2xl underline underline-offset-4">
                 {' '}
                 Description
@@ -67,7 +67,7 @@ const Product: NextPage = () => (
             />
         </div>
 
-        <div className="md:w-[70rem] mx-auto py-10 p-5 md:p-0 ">
+        <div className="md:w-[70rem] mx-auto md:py-10 p-5 md:p-0 ">
             <h1 className="font-semibold text-center font-serif my-5   text-2xl underline underline-offset-4">
                 Features
             </h1>
