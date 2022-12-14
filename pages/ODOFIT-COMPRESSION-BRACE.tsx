@@ -62,7 +62,7 @@ const Product: NextPage = () => (
                 image="/Banner_4.jpg"
                 description={
                     <span>
-                         If you enjoy running, playing golf or simply being active but the pain stop
+                        If you enjoy running, playing golf or simply being active but the pain stop
                         you, this brace is the perfect aid. This brace is designed to provide the
                         necessary warmth and compression in order to minimize pain and numbing so
                         you can, once again, enjoy doing your favorite things.
