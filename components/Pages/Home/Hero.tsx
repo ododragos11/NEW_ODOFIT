@@ -74,12 +74,22 @@ const Hero: FC = () => (
                     className=" object-cover "
                 />
             </div>
-            <div className="md:-mt-[0.5px]">
+            <div className="hidden md:block md:-mt-[0.5px]">
                 <Image
                     src="/Design_fara_titlu_59.png"
                     alt="resistant"
                     layout="intrinsic"
                     height={600}
+                    width={900}
+                    className=" object-cover "
+                />
+            </div>
+            <div className=" md:hidden">
+                <Image
+                    src="/Design_fara_titlu_59.png"
+                    alt="resistant"
+                    layout="intrinsic"
+                    height={1000}
                     width={900}
                     className=" object-cover "
                 />
