@@ -47,10 +47,11 @@ const Product: NextPage = () => (
                 image="/Banner_3.jpg"
                 description={
                     <span>
-                        If you enjoy running, playing golf or simply being active but the pain stop
-                        you, this brace is the perfect aid. This brace is designed to provide the
-                        necessary warmth and compression in order to minimize pain and numbing so
-                        you can, once again, enjoy doing your favorite things.
+                        This brace will provide injury support for a number of conditions such as:
+                        sciatica pain, hip flexor pain, groin pull, thigh pain, etc. This is
+                        achieved by restoring mobility and movement, decreasing tension on the
+                        muscle while also providing hip support and increased blood flow to the
+                        affected limb.
                     </span>
                 }
                 reverse
@@ -61,11 +62,10 @@ const Product: NextPage = () => (
                 image="/Banner_4.jpg"
                 description={
                     <span>
-                        This brace will provide injury support for a number of conditions such as:
-                        sciatica pain, hip flexor pain, groin pull, thigh pain, etc. This is
-                        achieved by restoring mobility and movement, decreasing tension on the
-                        muscle while also providing hip support and increased blood flow to the
-                        affected limb.
+                         If you enjoy running, playing golf or simply being active but the pain stop
+                        you, this brace is the perfect aid. This brace is designed to provide the
+                        necessary warmth and compression in order to minimize pain and numbing so
+                        you can, once again, enjoy doing your favorite things.
                     </span>
                 }
             />
