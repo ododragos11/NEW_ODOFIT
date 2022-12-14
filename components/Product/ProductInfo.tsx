@@ -26,7 +26,7 @@ const ProductInfo: FC<{
         </div>
         <div
             className={clx(
-                'flex flex-col justify-center bg-white  text-center md:text-left   md:w-1/2 mt-1 md:mt-0',
+                'flex flex-col justify-center bg-white   md:text-left   md:w-1/2 mt-1 md:mt-0',
                 reverse ? 'md:pr-8' : 'md:pl-8'
             )}
         >
