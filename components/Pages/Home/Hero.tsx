@@ -21,7 +21,7 @@ const Hero: FC = () => (
                             ODOFIT
                         </h2>
                         <h1 className="text-2xl text-center  ">ODOFIT Compression Brace</h1>
-                        <p className="text-gray-500 text-center font-medium">$27.97</p>
+                        <p className="text-gray-500 text-center font-medium">$29.98</p>
                     </div>
                 </div>
             </Link>
