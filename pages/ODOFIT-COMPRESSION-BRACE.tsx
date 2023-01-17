@@ -12,7 +12,7 @@ const Product: NextPage = () => (
         <ProductHeader
             amazonLink="https://www.amazon.com/stores/page/5B603D9A-4158-46BD-8D85-90CE90F7347D?ingress=2&visitId=f1253a18-b6be-4f81-913d-c3e313775f63&store_ref=bl_ast_dp_nofrnas_sto&ref_=ast_dp_bln_nofrnas_sto"
             title="ODOFIT Compression Brace"
-            price={30}
+            price={29.98}
         >
             <ProductSwiper
                 images={[
